@@ -30,7 +30,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Deploy
-        uses: serverless/github-action@189dd6854a3b12ecff4a02c49351779f919933ca #v3.2.0
+        uses: serverless/github-action@f5f0c17d6ef97718c03f2c0a87c5d9b0bacbb1d8 #v4.0.0
         with:
           args: deploy
 
